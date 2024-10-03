@@ -6,6 +6,8 @@
   // Formatting
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
 
   // Suggessions
   "editor.quickSuggestionsDelay": 0,
@@ -14,6 +16,11 @@
     "comments": false,
     "strings": false
   },
+
+  // Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
 
   // Appearance
   // Font
@@ -50,6 +57,22 @@
     }
   ],
 
+  // Tags
+  "editor.linkedEditing": true,
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
+
+  // Extensions
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "extensions.ignoreRecommendations": true,
+
+  // Emmet
+  "emmet.triggerExpansionOnTab": true,
+
   // Other
-  "git.confirmSync": false
+  "telemetry.telemetryLevel": "off",
+  "security.workspace.trust.enabled": false,
+  "git.confirmSync": false,
+  "update.mode": "none"
 }
