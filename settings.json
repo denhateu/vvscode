@@ -1,39 +1,55 @@
 {
-    // Appearance
-    // Font
-    "editor.fontFamily": "JetBrains Mono",
-    "editor.fontWeight": "400",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 13,
+  // Tabulation
+  "editor.tabSize": 3,
+  "editor.insertSpaces": true, // Use spaces instead of tabs
 
-    // Cursor
-    "editor.cursorStyle": "line-thin",
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
+  // Formatting
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
 
-    // Terminal
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "terminal.integrated.fontFamily": "JetBrains Mono",
+  // Suggessions
+  "editor.quickSuggestionsDelay": 0,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
 
-    // Vim
-    "vim.useSystemClipboard": true,
-    "vim.hlsearch": true,
-    "vim.smartRelativeLine": true,
+  // Appearance
+  // Font
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
 
-    "vim.leader": ",",
-    "vim.insertModeKeyBindings": [
-        {
-            "before": ["j", "j"],
-            "after": ["<Esc>"]
-        }
-    ],
-    "vim.normalModeKeyBindings": [
-        {
-            "before": ["<leader>", "e"],
-            "commands": ["workbench.view.explorer"]
-        }
-    ],
+  // Cursor
+  "editor.cursorStyle": "line-thin",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
 
-    // Other
-    "git.confirmSync": false
+  // Terminal
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+
+  // Vim
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.smartRelativeLine": true,
+
+  "vim.leader": ",",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    }
+  ],
+
+  // Other
+  "git.confirmSync": false
 }
