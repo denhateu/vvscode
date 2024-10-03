@@ -15,6 +15,25 @@
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.fontFamily": "JetBrains Mono",
 
+    // Vim
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.smartRelativeLine": true,
+
+    "vim.leader": ",",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": ["<leader>", "e"],
+            "commands": ["workbench.view.explorer"]
+        }
+    ],
+
     // Other
     "git.confirmSync": false
 }
