@@ -36,10 +36,9 @@
   //"workbench.productIconTheme": "fluent-icons",
 
   // Font
-  "editor.fontFamily": "SF Mono, Monaco",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 12,
   "editor.fontWeight": "normal",
-  "window.zoomLevel": -0.5,
 
   // Cursor
   "editor.cursorStyle": "line-thin",
