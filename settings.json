@@ -9,6 +9,9 @@
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
 
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -28,15 +31,15 @@
 
   // Appearance
   // Theme
-  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
-  "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
-  "workbench.productIconTheme": "fluent-icons",
+  //"workbench.colorTheme": "Material Theme Deepforest",
+  //"workbench.iconTheme": "eq-material-theme-icons-deepforest",
+  //"workbench.productIconTheme": "fluent-icons",
 
   // Font
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontWeight": "400",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
+  "editor.fontFamily": "SF Mono, Monaco",
+  "editor.fontSize": 12,
+  "editor.fontWeight": "normal",
+  "window.zoomLevel": -0.5,
 
   // Cursor
   "editor.cursorStyle": "line-thin",
@@ -45,11 +48,13 @@
 
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  "terminal.integrated.fontFamily": "JetBrains Mono",
+  //"terminal.integrated.fontFamily": "JetBrains Mono",
 
   // Vim
   "vim.useSystemClipboard": true,
   "vim.hlsearch": true,
+  "vim.ignorecase": true,
+  "vim.incsearch": true,
   "vim.smartRelativeLine": true,
 
   "vim.leader": ",",
@@ -62,7 +67,7 @@
   "vim.normalModeKeyBindings": [
     {
       "before": ["<leader>", "e"],
-      "commands": ["workbench.view.explorer"]
+      "commands": ["workbench.files.action.focusFilesExplorer"]
     }
   ],
 
