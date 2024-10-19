@@ -31,44 +31,16 @@
 
   // Appearance
   // Theme
-  //"workbench.colorTheme": "Material Theme Deepforest",
-  //"workbench.iconTheme": "eq-material-theme-icons-deepforest",
-  //"workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
 
   // Font
   "editor.fontFamily": "Fira Code",
-  "editor.fontSize": 12,
+  "editor.fontSize": 11,
   "editor.fontWeight": "normal",
-
-  // Cursor
-  "editor.cursorStyle": "line-thin",
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
 
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
-  //"terminal.integrated.fontFamily": "JetBrains Mono",
-
-  // Vim
-  "vim.useSystemClipboard": true,
-  "vim.hlsearch": true,
-  "vim.ignorecase": true,
-  "vim.incsearch": true,
-  "vim.smartRelativeLine": true,
-
-  "vim.leader": ",",
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindings": [
-    {
-      "before": ["<leader>", "e"],
-      "commands": ["workbench.files.action.focusFilesExplorer"]
-    }
-  ],
 
   // Tags
   "editor.linkedEditing": true,
