@@ -47,5 +47,6 @@
   // Other settings
   "extensions.autoCheckUpdates": false,
   "extensions.autoUpdate": false,
-  "update.mode": "none"
+  "update.mode": "none",
+  "git.confirmSync": false
 }
