@@ -26,7 +26,6 @@
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
   "editor.minimap.enabled": false,
-  "editor.glyphMargin": false,
 
   // Font
   "editor.fontFamily": "Fira Code",
@@ -43,6 +42,30 @@
 
   // Emmet
   "emmet.triggerExpansionOnTab": true,
+
+  // Vim
+  // Linenumber
+  "vim.smartRelativeLine": true,
+
+  // Clipboard
+  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.duration": 150,
+
+  "vim.useCtrlKeys": true,
+
+  // Search
+  "vim.incsearch": true,
+  "vim.hlsearch": true,
+
+  // Keybindings
+  "vim.leader": ",",
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
 
   // Other settings
   "extensions.autoCheckUpdates": false,
