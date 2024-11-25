@@ -12,6 +12,7 @@
 
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.fontSize": 12,
 
   // Suggessions
   "editor.quickSuggestionsDelay": 0,
@@ -28,13 +29,13 @@
   "editor.minimap.enabled": false,
 
   // Font
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Roboto Mono",
   "editor.fontSize": 13,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
 
   // Theme
-  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorTheme": "Min Dark",
 
   // Cursor
   "editor.cursorBlinking": "phase",
@@ -71,5 +72,8 @@
   "extensions.autoCheckUpdates": false,
   "extensions.autoUpdate": false,
   "update.mode": "none",
-  "git.confirmSync": false
+  "git.confirmSync": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "none"
 }

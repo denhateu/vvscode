@@ -1,0 +1,25 @@
+{
+	"Empty page Next js": {
+		"prefix": "nep",
+		"body": [
+			"export default function Page() {",
+			"\treturn <div>$0</div>",
+			"}",
+		],
+		"description": "Create empty Next.js page component"
+	},
+	"Empty page Next js with SEO": {
+		"prefix": "neps",
+		"body": [
+			"import type { Metadata } from \"next\"\n",
+			"export const metadata: Metadata = {",
+			"\ttitle: \"${1:Заголовок}\",",
+			"\tdescription: \"${2:Описание почему этот сайт ахуенный}\",",
+			"}\n",
+			"export default function Page() {",
+			"\treturn <div>$0</div>",
+			"}",
+		],
+		"description": "Create empty Next.js page component with SEO"
+	}
+}
