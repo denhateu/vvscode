@@ -29,17 +29,10 @@
   "editor.minimap.enabled": false,
 
   // Font
-  "editor.fontFamily": "Roboto Mono",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
-
-  // Theme
-  "workbench.colorTheme": "Min Dark",
-
-  // Cursor
-  "editor.cursorBlinking": "phase",
-  "editor.cursorSmoothCaretAnimation": "on",
 
   // Emmet
   "emmet.triggerExpansionOnTab": true,
@@ -75,5 +68,6 @@
   "git.confirmSync": false,
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "symbols",
-  "workbench.startupEditor": "none"
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Monokai"
 }
