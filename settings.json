@@ -2,7 +2,7 @@
   // Wrapping
   "editor.wordWrap": "bounded",
   "editor.wrappingIndent": "same",
-  "editor.wordWrapColumn": 80,
+  "editor.wordWrapColumn": 110,
 
   // Tabulation
   "editor.tabSize": 3,
@@ -49,21 +49,20 @@
   // Minimalizm settings
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "vsicons.presets.hideExplorerArrows": false,
   "editor.minimap.enabled": false,
   "editor.glyphMargin": false,
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
   "window.density.editorTabHeight": "compact",
-  "workbench.activityBar.location": "top",
   "workbench.editor.tabSizing": "shrink",
 
   // Breadcrubs
   "breadcrumbs.enabled": false,
 
   // Font
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
+  "editor.lineHeight": 15.6,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
 
@@ -86,13 +85,31 @@
   "vim.hlsearch": true,
 
   // Keybindings
-  "vim.leader": ",",
   "vim.insertModeKeyBindings": [
     {
       "before": ["k", "j"],
       "after": ["<Esc>"]
     }
   ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    }
+  ],
+  "vim.leader": ",",
 
   // Other settings
   "extensions.autoCheckUpdates": false,
