@@ -1,4 +1,9 @@
 {
+  // Wrapping
+  "editor.wordWrap": "bounded",
+  "editor.wrappingIndent": "same",
+  "editor.wordWrapColumn": 80,
+
   // Tabulation
   "editor.tabSize": 3,
   "editor.insertSpaces": true, // Use spaces instead of tabs
@@ -13,6 +18,7 @@
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "terminal.integrated.fontSize": 12,
+  "terminal.integrated.tabs.enabled": false,
 
   // Suggessions
   "editor.quickSuggestionsDelay": 0,
@@ -20,13 +26,39 @@
   // Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
+  "editor.scrollBeyondLastLine": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renderControlCharacters": false,
+
+  // Tags
+  // Rename tags
+  "editor.linkedEditing": true,
+
+  // Auto closing tags
+  "html.autoClosingTags": true,
+  "javascript.autoClosingTags": true,
 
   // Appearance
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "glyph.legacy",
+  "editor.smoothScrolling": false,
+
   // Minimalizm settings
-  "breadcrumbs.enabled": false,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
+  "vsicons.presets.hideExplorerArrows": false,
   "editor.minimap.enabled": false,
+  "editor.glyphMargin": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "window.density.editorTabHeight": "compact",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.tabSizing": "shrink",
+
+  // Breadcrubs
+  "breadcrumbs.enabled": false,
 
   // Font
   "editor.fontFamily": "Fira Code",
@@ -56,7 +88,7 @@
   "vim.leader": ",",
   "vim.insertModeKeyBindings": [
     {
-      "before": ["j", "j"],
+      "before": ["k", "j"],
       "after": ["<Esc>"]
     }
   ],
@@ -66,8 +98,8 @@
   "extensions.autoUpdate": false,
   "update.mode": "none",
   "git.confirmSync": false,
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "symbols",
-  "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Monokai"
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.accessibilitySupport": "off",
+  "window.confirmBeforeClose": "keyboardOnly",
+  "git.openRepositoryInParentFolders": "never"
 }
