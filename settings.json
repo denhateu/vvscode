@@ -41,6 +41,7 @@
   "javascript.autoClosingTags": true,
 
   // Appearance
+  "workbench.colorTheme": "Monokai",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "glyph.legacy",
   "editor.smoothScrolling": false,
