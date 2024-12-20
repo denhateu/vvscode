@@ -1,24 +1,15 @@
 {
-  // Wrapping
-  "editor.wordWrap": "bounded",
-  "editor.wrappingIndent": "same",
-  "editor.wordWrapColumn": 110,
-
   // Tabulation
-  "editor.tabSize": 3,
+  "editor.tabSize": 4,
   "editor.insertSpaces": true, // Use spaces instead of tabs
 
   // Formatting
-  "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
+  "editor.formatOnSave": true,
 
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.tabs.enabled": false,
 
   // Suggessions
   "editor.quickSuggestionsDelay": 0,
@@ -28,9 +19,8 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
 
-  "editor.scrollBeyondLastLine": true,
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.renderControlCharacters": false,
+  "files.trimTrailingWhitespace": true,
 
   // Tags
   // Rename tags
@@ -41,83 +31,24 @@
   "javascript.autoClosingTags": true,
 
   // Appearance
-  "workbench.colorTheme": "Monokai",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "glyph.legacy",
-  "editor.smoothScrolling": false,
-
-  // Minimalizm settings
-  "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "editor.minimap.enabled": false,
-  "editor.glyphMargin": false,
-  "editor.scrollbar.horizontal": "hidden",
-  "editor.scrollbar.vertical": "hidden",
-  "window.density.editorTabHeight": "compact",
-  "workbench.editor.tabSizing": "shrink",
-
-  // Breadcrubs
-  "breadcrumbs.enabled": false,
 
   // Font
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "Fira Code",
   "editor.fontSize": 13,
-  "editor.lineHeight": 15.6,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
 
   // Emmet
   "emmet.triggerExpansionOnTab": true,
 
-  // Vim
-  // Linenumber
-  "vim.smartRelativeLine": true,
-
-  // Clipboard
-  "vim.useSystemClipboard": true,
-  "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.duration": 150,
-
-  "vim.useCtrlKeys": true,
-
-  // Search
-  "vim.incsearch": true,
-  "vim.hlsearch": true,
-
-  // Keybindings
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["k", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "k"],
-      "commands": ["workbench.action.nextEditor"]
-    },
-    {
-      "before": ["<leader>", "j"],
-      "commands": ["workbench.action.previousEditor"]
-    },
-    {
-      "before": ["<leader>", "e"],
-      "commands": ["workbench.action.toggleSidebarVisibility"]
-    },
-    {
-      "before": ["<leader>", "f"],
-      "commands": ["workbench.action.quickOpen"]
-    }
-  ],
-  "vim.leader": ",",
-
   // Other settings
   "extensions.autoCheckUpdates": false,
   "extensions.autoUpdate": false,
   "update.mode": "none",
   "git.confirmSync": false,
-  "workbench.startupEditor": "newUntitledFile",
   "editor.accessibilitySupport": "off",
-  "window.confirmBeforeClose": "keyboardOnly",
   "git.openRepositoryInParentFolders": "never"
 }
