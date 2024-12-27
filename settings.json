@@ -29,10 +29,7 @@
   // Auto closing tags
   "html.autoClosingTags": true,
   "javascript.autoClosingTags": true,
-
-  // Appearance
-  "workbench.colorTheme": "Default Dark+",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "bearded-icons",
   "workbench.productIconTheme": "fluent-icons",
 
   // Font
@@ -96,5 +93,9 @@
   "update.mode": "none",
   "git.confirmSync": false,
   "editor.accessibilitySupport": "off",
-  "git.openRepositoryInParentFolders": "never"
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  }
 }
