@@ -33,9 +33,8 @@
   "workbench.productIconTheme": "fluent-icons",
 
   // Font
-  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontSize": 13,
-  // "editor.lineHeight": 16.9,
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
 
@@ -44,48 +43,6 @@
 
   // Emmet
   "emmet.triggerExpansionOnTab": true,
-
-  // Vim
-  // Linenumber
-  "vim.smartRelativeLine": true,
-
-  // Clipboard
-  "vim.useSystemClipboard": true,
-  "vim.highlightedyank.enable": true,
-  "vim.highlightedyank.duration": 150,
-
-  "vim.useCtrlKeys": true,
-
-  // Search
-  "vim.incsearch": true,
-  "vim.hlsearch": true,
-
-  // Keybindings
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["k", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "k"],
-      "commands": ["workbench.action.nextEditor"]
-    },
-    {
-      "before": ["<leader>", "j"],
-      "commands": ["workbench.action.previousEditor"]
-    },
-    {
-      "before": ["<leader>", "e"],
-      "commands": ["workbench.action.toggleSidebarVisibility"]
-    },
-    {
-      "before": ["<leader>", "f"],
-      "commands": ["workbench.action.quickOpen"]
-    }
-  ],
-  "vim.leader": ",",
 
   // Other settings
   "extensions.autoCheckUpdates": false,
@@ -97,5 +54,8 @@
   "workbench.colorTheme": "One Dark Pro Darker",
   "[php]": {
     "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
   }
 }
