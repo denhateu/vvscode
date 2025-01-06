@@ -6,6 +6,12 @@
   // Formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
 
   // Terminal
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
@@ -29,7 +35,10 @@
   // Auto closing tags
   "html.autoClosingTags": true,
   "javascript.autoClosingTags": true,
-  "workbench.iconTheme": "bearded-icons",
+
+  // Appearance
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "cage",
   "workbench.productIconTheme": "fluent-icons",
 
   // Font
@@ -51,11 +60,7 @@
   "git.confirmSync": false,
   "editor.accessibilitySupport": "off",
   "git.openRepositoryInParentFolders": "never",
-  "workbench.colorTheme": "One Dark Pro Darker",
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
   }
 }
